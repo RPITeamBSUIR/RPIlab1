@@ -2,3 +2,114 @@ body {
 	margin: 0 auto; 
 	max-width: 1400px;
 }
+
+ a{
+	 color: #000;
+	 text-decoration: none;
+ }
+
+ .I-Menu {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+ }
+
+ .I-Menu li{
+	font-size: 20px;
+	display: inline-block;
+	white-space: nowrap;
+	margin-right: 45px;
+	font-weight: 600;
+
+
+ }
+ .I-Menu li:hover{
+	font-size: 20px;
+	display: inline-block;
+	white-space: nowrap;
+	margin-right: 45px;
+	font-weight: 600;
+	text-decoration: underline;
+
+ }
+ .I-Logo h2{
+	
+	font-size:25px;
+	margin-left: 110px;
+	margin-top: 47px;
+	margin-bottom: 55px;
+	margin-right: 300px;
+ }
+ 
+
+ .I-Banner{
+	height: 655px;
+	width: 1400px;
+	background-image: url("Banner.png");
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+ }
+ .I-Banner h1{
+	 margin: 0px;
+	 padding-top: 165px;
+	 text-align: center;
+	 color: #ffffff;
+	 font-size: 60px;
+	 
+ }
+ .I-Banner p{
+	 font-size: 22px;
+	 margin-top:15px;
+	 color: #ffffff;
+	 text-align: center;
+ }
+ .I-Btns{
+	 margin-top: 110px;
+	 margin-left:465px;
+	 padding: 0px;
+ }
+ .I-Btns button{
+	 border: 4px solid #ffffff;
+	 background: none;
+	 color: #ffffff;
+	 height: 70px;
+	 width: 220px;
+	 font-family: 'Roboto', sans-serif;
+	 font-size:20px;
+	 font-weight: 700;
+ }
+ .I-Btns button:hover{
+	border: 4px solid #00897b;
+	background: none;
+	color: #ffffff;
+	height: 70px;
+	width: 220px;
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	font-weight: 700;
+	background-color: #00897b;
+}
+
+ .I-Btns li{
+	 display: inline-block;
+	 margin: 0px;
+	 margin-right:25px;
+	
+	  
+
+ } 
+ .fa-angle-down {
+    color: #fff;
+    margin-left: 690px;
+   margin-top: 80px;
+    
+	font-size: 25px;
+}
+ 
+
+ 
+ 
+ 
+
+ 
