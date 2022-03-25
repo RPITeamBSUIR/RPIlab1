@@ -1,0 +1,135 @@
+/* fonts */
+@font-face {
+	font-family: OpenSans Bold;
+	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: OpenSans Regular;
+	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family: OpenSans Light;
+	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family: OpenSans Semibold;
+	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf);
+}
+
+/* spacing page 5 */
+.v-spacing-p5 {
+	background: #f0f1f1; 
+	padding: 125px 115px;   
+}
+
+/* main text page 5 */
+
+.v-main-text-p5 h2{
+	font-family: OpenSans Bold; 
+	font-size: 30px; 
+	text-align: center;
+	margin: 0;  
+}
+.v-main-text-p5 h3{
+	display: block ;
+	font-family: OpenSans Regular; 
+	font-size: 15px; 
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 38px;
+	margin-bottom: 134px; 
+	width: 630px;
+}
+
+/* main text page 5 */
+
+/*price list page 5*/
+
+/*all prices class*/
+.v-all-containers {
+	display: flex;
+	justify-content: space-between;
+}
+/*all prices*/
+
+/*single price*/
+.v-container-p5 {
+	background-image: url(images/rectangle.svg);
+	width: 370px; 
+	height: 667px; 
+}
+/*single price*/
+.v-container-p5:hover {
+	box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.5s;
+}
+
+h4.v-header-p5{
+	text-align: center;
+	font-family: OpenSans Regular;
+	margin: 0;
+	color: white;
+	font-size: 25px;
+	margin-top: 35px ;
+	font-weight: 400;
+}
+p.v-price-p5{
+	text-align: center;
+	font-family: OpenSans Regular; 
+	font-size: 50px;
+	color: white;
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 100px;
+	font-weight: 400;
+
+}
+span.v-month-p5{
+	font-family: OpenSans Regular;
+	font-size: 17px;
+	font-weight: 400;
+}
+sup.v-dollar-p5{
+	font-size: 25px;
+	font-weight: 400;
+}
+p.v-options-p5{
+	text-align: center;
+	font-family: OpenSans Light; 
+	font-size: 17px;
+	margin: 0;
+}
+hr.v-line-p5{
+	width: 180px;
+	margin-bottom: 32px;
+	margin-top: 13px;
+
+
+}
+.btn{
+	border: 2px solid #000;
+   	background: none;
+   	color: #000;
+   	height: 60px;
+   	width: 180px;
+   	font-family: 'Roboto', sans-serif;
+   	font-size:20px;
+   	font-weight: 700;
+   	margin-left: 95px;
+   	margin-top: 21px;
+}
+.btn:hover{
+	border: none;
+   	background: #00897B;
+   	color: #FFF;
+   	height: 60px;
+   	width: 180px;
+   	font-family: 'OpenSans Semibold', sans-serif;
+   	font-size:20px;
+   	font-weight: 700;
+   	margin-left: 95px;
+   	transition: color 0.6s, border 0.6s, background-color 0.6s;
+
+}
+
+/*price list page 5*/
