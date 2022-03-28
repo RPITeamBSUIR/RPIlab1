@@ -91,15 +91,19 @@ body {
 
  } 
  .fa-angle-down {
+	
     color: #fff;
     margin-left: 690px;
-   margin-top: 80px;
-    
+    margin-top: 80px;
 	font-size: 25px;
+	
+}
+.fa-angle-down:hover {
+   text-decoration: underline;
 }
 .I-AboutUs-text{
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 125px;
+	margin-top: 120px;
 	text-align: center;
 }
 .I-aboutUs-h{
@@ -128,10 +132,10 @@ body {
 .I-AboutUs-content{
 	width: 255px;
 }
-.I-AboutUs-content h1{
+.I-AboutUs-content h3{
 	font-size: 20px;
 	font-weight: 600;
-	margin-top: 40px;
+	margin-top: 37px;
 }
 .I-AboutUs-content p{
 	font-size: 15px;
