@@ -1,19 +1,19 @@
 /* fonts */
 @font-face {
 	font-family: OpenSans Bold;
-	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
+	src: url(fonts1/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
 }
 @font-face {
 	font-family: OpenSans Regular;
-	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+	src: url(fonts1/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
 }
 @font-face {
 	font-family: OpenSans Light;
-	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf);
+	src: url(fonts1/Open_Sans/static/OpenSans/OpenSans-Light.ttf);
 }
 @font-face {
 	font-family: OpenSans Semibold;
-	src: url(fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf);
+	src: url(fonts1/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf);
 }
 
 /* spacing page 5 */
@@ -24,13 +24,23 @@
 
 /* main text page 5 */
 
-.v-main-text-p5 h2{
+.v-main-text-p5 h2, h5{
 	font-family: OpenSans Bold; 
 	font-size: 30px; 
 	text-align: center;
 	margin: 0;  
 }
-.v-main-text-p5 h3{
+p.v-under-main-text-p5{
+	display: block ;
+	font-family: OpenSans Regular; 
+	font-size: 15px; 
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 38px;
+	margin-bottom: 134px; 
+	width: 630px;
+}
+p.v-under-main-text-p6{
 	display: block ;
 	font-family: OpenSans Regular; 
 	font-size: 15px; 
@@ -133,3 +143,109 @@ hr.v-line-p5{
 }
 
 /*price list page 5*/
+
+/* spacing page 6 */
+.v-spacing-p6 {
+	background: #FFF; 
+	padding: 123px 115px;   
+}
+.v-container1-p6 {
+	background-image: url(images/Firstman.png);
+	width: 370px; 
+	height: 320px;
+	margin: 0;
+	margin-bottom: 39px;
+}
+.v-container2-p6 {
+	background-image: url(images/secondman.png);
+	width: 370px; 
+	height: 320px;
+	margin: 0;
+	margin-bottom: 39px; 
+}
+.v-container3-p6 {
+	background-image: url(images/thirdman.png);
+	width: 370px; 
+	height: 320px;
+	margin: 0;
+}
+p.v-name-p6{
+	font-family: OpenSans Semibold;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 359px;
+	margin-bottom: 17px;
+	text-align: center;
+}
+p.v-workpos-p6{
+	font-family: OpenSans Regular;
+	font-size: 15px;
+	margin: 0;
+	margin-bottom: 33px;
+	text-align: center;
+}
+.v-all-containers-icons {
+	margin-left: 50px;
+	justify-content: space-between;
+	
+}
+/*.v-all-containers-icons:hover {
+	border: none;
+   	background: #00897B;
+   	color: #FFF;
+   	height: 60px;
+   	width: 180px;
+   	font-family: 'OpenSans Semibold', sans-serif;
+   	font-size:20px;
+   	font-weight: 700;
+   	margin-left: 95px;
+   	transition: color 0.6s, border 0.6s, background-color 0.6s;
+}*/ 
+.team__icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 126px;
+}
+
+.team__icons-link {
+    text-decoration: none;
+}
+i {
+    color: #00897b;
+}
+.link__ico:hover {
+    background: #3949ab;
+    transition: background 0.6s;
+}
+
+.link__ico:hover > .fa-xl {
+    color: #FFF;
+    transition: color 0.6s;
+}
+.link__ico {
+    border: 2px solid #f0f1f1;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-circles-p6 {
+	margin: 0;
+	margin-top: 274px;
+	display: flex;
+    justify-content: center;
+}
+p.v-circle-p6 {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+    background: #00897b;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.v-circle-p6:hover {
+    background: #3949ab;
+}
