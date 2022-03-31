@@ -237,6 +237,7 @@ i {
 	margin-top: 274px;
 	display: flex;
     justify-content: center;
+    text-align: center;
 }
 p.v-circle-p6 {
 	width: 15px;
@@ -245,6 +246,9 @@ p.v-circle-p6 {
     background: #00897b;
     margin-right: 10px;
     cursor: pointer;
+}
+.v-circle-p6:last-child{
+	margin-right: 0;
 }
 .v-circle-p6:hover {
     background: #3949ab;
